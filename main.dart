@@ -20,7 +20,7 @@ class DataUmkm {
       ListPop.add(Umkm(nama: nama, jenis: jenis));
     }
   }
-  //map dari json ke atribut
+
   factory DataUmkm.fromJson(Map<String, dynamic> json) {
     return DataUmkm(json);
   }
